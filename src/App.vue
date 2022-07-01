@@ -14,7 +14,7 @@ export default {
 
 <template>
   <div class="counter-wrapper">
-    <h1>Plugin 02</h1>
+    <h1>Plugin 03</h1>
     <h2>{{ count }}</h2>
     <div class="buttons-wrapper">
       <button @click="count--">Decrease</button>
