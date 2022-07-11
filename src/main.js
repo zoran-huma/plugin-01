@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import PocButton from 'poc-button';
 
-createApp(App).mount('#app')
+import 'poc-button/dist/style.css';
+
+const app = createApp(App);
+
+app.use(PocButton);
+
+app.mount('#app');

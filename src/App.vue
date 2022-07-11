@@ -20,6 +20,7 @@ export default {
       <button @click="count--">Decrease</button>
       <button @click="count++">Increase</button>
     </div>
+    <poc-button>Button from NPM Package</poc-button>
   </div>
 </template>
 
