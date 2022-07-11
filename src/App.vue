@@ -20,7 +20,7 @@ export default {
       <button @click="count--">Decrease</button>
       <button @click="count++">Increase</button>
     </div>
-    <poc-button>Button from NPM Package</poc-button>
+    <poc-button>[PLUGIN] Button from NPM Package</poc-button>
   </div>
 </template>
 
@@ -31,7 +31,7 @@ export default {
   flex-direction: column;
   align-items: center;
 
-  background: #2E7D32;
+  background: #2e7d32;
   color: white;
   padding: 2rem;
 }
